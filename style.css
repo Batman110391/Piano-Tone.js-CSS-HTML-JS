@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 100px;
+  width: 718px;
+  background-color: black;
+  transform: translateY(30px);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  align-self: center;
+  color: #ffd700e3;
+  font-family: fantasy;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.whitenote {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  background: white;
+  border-right: 1px solid black;
+  justify-content: center;
+}
+
+.linee {
+  position: relative;
+}
+
+.blacknote {
+  position: absolute;
+  display: flex;
+  height: 133px;
+  width: 29px;
+  right: -14px;
+  z-index: 1;
+  background: #777;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  transform: translateY(30px);
+  margin: auto;
+  border: 5px solid black;
+  height: 205px;
+  width: 708px;
+}
+
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: center;
+  align-self: flex-end;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blackNotes {
+  font-size: 13px;
+}
